@@ -18,6 +18,9 @@ Open http://127.0.0.1:4173. Run `npm run check` for syntax validation and domain
 - Year selection and Q1–Q4 filters; project overlap determines the portfolio view.
 - Quarterly roadmap and milestone checkpoints.
 - Create, edit and delete projects, tasks, milestones and risks.
+- Add tasks directly from project cards or portfolio rows. Project task panels include a quick-entry form for a task name, responsible person and deadline; keep entering tasks without leaving the project.
+- Responsible-person suggestions come from existing project leads and task owners; new names are accepted. New tasks default to the selected project's lead and deadline (or today when that deadline has passed).
+- Edit responsible people and deadlines directly in the project task list; changes save immediately. The full task editor offers “Create & add another” and retains the project, person and deadline.
 - Task list and board, project/status filters, priorities, owners, due dates and completion dates.
 - Project detail with task completion controls; progress and health update immediately.
 - Planned versus actual monthly task completion, recorded budget usage, workload and activity.
